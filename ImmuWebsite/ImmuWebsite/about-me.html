@@ -1,0 +1,98 @@
+﻿<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Imran Khan - Portfolio</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/font-icon.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- header top section -->
+    <section class="banner" role="banner">
+        <header id="header">
+            <div class="header-content clearfix">
+                <a class="logo" style="font-size:25px;color:black !important;" href="index.html"><b>IMRAN KHAN</b></a>
+                <nav class="navigation" role="navigation">
+
+                    <ul class="primary-nav" style="color:#9e9c9c;">
+                        <li style="margin-right:20px;"><a href="index.html" style="color:#9e9c9c;">PROJECTS</a></li>|
+                        <li class="active" style="margin-right:20px;"><a style="color:#9e9c9c;" href="about-me.html">ABOUT ME</a></li>|
+                        <li style="margin-right:20px;margin-left: 15px;"><a href="tel:+919960993584" style="color:#9e9c9c;">  9960993584 </a></li>|
+                        <li><a style="color:#9e9c9c;" href="mailto:muhammedimran87@gmail.com">muhammedimran87@gmail.com</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </section>
+<!-- header top section --> 
+<!-- header content section -->
+<section id="works-info" class="section ">
+  
+</section>
+<!-- header content section --> 
+<!-- portfolio grid section -->
+<section id="work-detail" style="background-color:black;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 work-detail ">
+        <div class="work-detail">
+            <div style="height: 900px;width: 75%;background-repeat: no-repeat;background-image: url(images/Imran.jpg);text-align: center;margin-left:160px;">
+                <p style="color: white;width: 95%;margin-left: 19px;font-size: 23px;">Imran grew up in Mumbai, did his Bachelors in Fine Arts from Pune and moved back to pursue a career in advertising. Here from Saatchi & Saatchi with more than five years of experience, Imran is never low on energy, courtesy of his ‘work is play’ ideology. Having worked across categories like travel, insurance and real estate amongst others, he staunchly believes in making every new ad his best yet. He loves music, biographical cinema and refuses to change his Game of Thrones ring-tone.</p>
+            </div>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- portfolio grid section --> 
+<!-- service section -->
+<!-- service section --> 
+<!-- footer section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="col-md-6 left">
+                <h4>Let's work together</h4>
+                <p> Call: <a href="tel:+919960993584" style="color:#9e9c9c;">  9960993584 </a> OR Email : <a style="color:#9e9c9c;" href="mailto:muhammedimran87@gmail.com"> muhammedimran87@gmail.com </a></p>
+            </div>
+            <div class="col-md-6 right">
+                <p>
+                    © 2017 All rights reserved. All Rights Reserved<br>
+                    Made with <i class="fa fa-heart pulse"></i> by <a href="https://about.me/furquan.khan">Furquan Khan</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+<!-- footer section --> 
+
+<!-- JS FILES --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+
+<script src="js/jquery.fancybox.pack.js"></script> 
+<!--<script src="js/jquery.waypoints.min.js"></script>--> 
+<script src="js/retina.min.js"></script> 
+<script src="js/modernizr.js"></script> 
+<script src="js/main.js"></script>
+<script>
+    $(document).ready(function () {
+        var workID = localStorage.getItem('WorkID');
+        $('.imgOuterDiv').hide();
+        $('.allContent').hide();
+        $("#" + workID).show();
+        $("#content-" + workID).show();
+    });
+</script>
+</body>
+</html>
